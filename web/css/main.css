@@ -467,9 +467,9 @@ header h1 {
   background: url(../img/logo.png);
   text-indent: -9999px;
 }
-
-body {
-  width: 100%;
+.head-contact a {
+  text-decoration: none;
+  color: #000;
 }
 
 /*
@@ -482,155 +482,163 @@ body {
   color: #000; 
   margin-bottom: 40px;*/
 
-.box-menu address{
- display: none;
+  .box-menu address{
+   display: none;
 
+ }
+
+ .box-menu {
+  width: 100%;
+  background-color: #f7e837;
+  float: left;
+  height: 80px;
+  margin-top: 8px;
 }
 
-  .box-menu {
-    width: 100%;
-    background-color: #f7e837;
-    float: left;
-    height: 80px;
-    margin-top: 8px;
-  }
+.menu li {
+  float: left;
+  display: inline-block;
+  margin-top: 17px;
+  margin-left: 10px;
+  padding: 10px; 
+  font-size: 1em;
+  color: #3b3a3a;
+}
 
-  .menu li {
-    float: left;
-    display: inline-block;
-    margin-top: 17px;
-    margin-left: 10px;
-    padding: 10px; 
-    font-size: 1em;
-    color: #3b3a3a;
-  }
+.menu li a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
 
-
-.menu li:hover {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+.menu li:hover a {
   background-color: #000;
   color: #f7e837;
 }
 
-  .banner img {
-    display: none;
- 
-  }
+.banner img {
+  display: none;
 
-  .banner h1, h4 {
-    color: #6a6969;
-  }
+}
 
-  .bg-banner p {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    color: #494747;
-  }
+.banner h1, h4 {
+  color: #6a6969;
+}
 
-  .bg-banner {
-    float: left;
-    background-color: #e5e5e5;
-    text-align: center;
-    margin-bottom: 10px;
-    line-height: 120%;
-    
-  }
+.bg-banner p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #494747;
+}
 
-  .title {
-    float: left;
-    width: 100%;
-    color: #3b3a3a;
-    margin-top: 5%;
-  }
+.bg-banner {
+  float: left;
+  background-color: #e5e5e5;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 120%;
 
- .box-products img {
+}
+
+.title {
+  float: left;
+  width: 100%;
+  color: #3b3a3a;
+  margin-top: 5%;
+}
+
+.box-products img {
   width: 230px;
   height: 0 auto;
   margin-bottom: 20px;
- }
-  /* BODY */
+}
+/* BODY */
 
-  .products {
-    width: 90%;
-    margin-bottom: 20%;
-  }
+.products {
+  width: 90%;
+  margin-bottom: 20%;
+}
 
-  .products h2 {
-    color: #494747;
-    text-indent: none;
-  }
+.products h2 {
+  color: #494747;
+  text-indent: none;
+}
 
-  .products strong {
-    color: #494747;
-  }
+.products strong {
+  color: #494747;
+}
 
- .products p {
+.products p {
   line-height: 150%;
   margin-top: 10px;
- }
+}
 
-  /* FOOTER */
-  footer {
-    float: left;
-    width: 100%;
-    background: #f7e837;
-  }
-  .about {
-    width: 100%;
-  }
-  .contact {
-    width: 100%;
-  }
+/* FOOTER */
+footer {
+  float: left;
+  width: 100%;
+  background: #f7e837;
+}
+.about {
+  width: 100%;
+}
+.contact {
+  width: 100%;
+}
 
-  .about p{
-    width: 70%;
-    text-align: left;
-    margin-left: 30px;
-    color: #494747;
-  }
+.about p{
+  width: 70%;
+  text-align: left;
+  color: #494747;
+}
+.contact form {
+  width: 320px;
+  margin-bottom: 20px;
+}
+.contact input {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #f2f2f1;
+  border: 2px solid #e5d304;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+}
 
-  .contact form {
-    width: 230px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-  }
-
-  .contact input {
-    margin-bottom: 10px;
-    width: 230px;
-    height: 30px;
-    background-color: #f2f2f1;
-    border: 2px solid #e5d304;
-    border-radius: 5px;
-  }
-  
-  .contact textarea {
-    background-color: #f7f7f7;
-    border: 2px solid #e5d304;
-    border-radius: 5px;
-    height: 100px;
-    margin-bottom: 4px;
-  }
+.contact textarea {
+  width: 100%;
+  background-color: #f7f7f7;
+  border: 2px solid #e5d304;
+  border-radius: 5px;
+  height: 100px;
+  margin-bottom: 4px;
+  outline: none;
+  padding: 10px;
+}
 
 
-  .contact button {
-    border: #000;
-    background-color: #000;
-    color: #f7e837;
-    padding: 6px;
-    border-radius: 5px;
-    float: right;
-    margin-bottom: 10%;
-  }
+.contact button {
+  border: #000;
+  background-color: #000;
+  color: #f7e837;
+  padding: 6px;
+  float: right;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
 
-  .contact button:active {
-    background-color: #d5d5d5;
-    color: #000;
-  }
+.contact button:active {
+  background-color: #d5d5d5;
+  color: #000;
+}
 
-  }
+}
 
-  @media (min-width: 500px){
-  
+@media (min-width: 500px){
+
   .menu li {
     font-size: 1.6em;
     margin-left: 20px;
@@ -640,20 +648,20 @@ body {
     width: 50%;
   }
 
+}
+
+
+@media (min-width: 720px){
+  .box-menu address {
+    display: block;
+    float: right;
+    background-color: #f7e837;
+    margin-right: 3%;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #3b3a3a;
+    font-style: normal; 
   }
-
-
-  @media (min-width: 720px){
-    .box-menu address {
-  display: block;
-  float: right;
-  background-color: #f7e837;
-  margin-right: 3%;
-  margin-top: 20px;
-  font-size: 1rem;
-  color: #3b3a3a;
-  font-style: normal; 
-    }
 
   .banner img {
     margin-top: 0;
@@ -667,19 +675,19 @@ body {
     background-color: #e5e5e5;
   }
 
- .bg-banner {
-  background-color: #e5e5e5;
-  width: 87%;
- }
+  .bg-banner {
+    background-color: #e5e5e5;
+    width: 87%;
+  }
 
-.container {
-  width: 720px;
-}
+  .container {
+    width: 720px;
+  }
 
-.banner {
-  width: 100%;
-  background-color: #e5e5e5;
-}
+  .banner {
+    width: 100%;
+    background-color: #e5e5e5;
+  }
   .banner figcaption {
     position: absolute;
     float:left;
@@ -688,11 +696,11 @@ body {
     margin-left: 45px;
   }
 
-    .about,
-    .contact {
-      float: left;
-      width: 50%;
-    }
+  .about,
+  .contact {
+    float: left;
+    width: 50%;
+  }
 
   .products li {
     display: inline-block;
@@ -711,36 +719,37 @@ body {
   .products p {
     width: 203px;
   }
-
+  .products figure img {
+    float: left;
+  }
   .products figcaption {
-    float: right;
+    float: left;
     width: 40%;
-    margin-right: 20%;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 940px) {
+
+  .container {
+    width: 940px;
   }
 
+  .menu li {
+    font-size: 1.5em;
   }
 
-  @media (min-width: 940px) {
-    
-    .container {
-      width: 940px;
-    }
+  .box-menu address {
+    margin-right: 2%;
+  }
 
-    .menu li {
-      font-size: 1.5em;
-    }
+  .box-products {
+    width: 100%;
+  }
 
-    .box-menu address {
-      margin-right: 2%;
-    }
-
-    .box-products {
-      width: 100%;
-    }
-
-    .banner img {
-      width: 940px;
-    }
+  .banner img {
+    width: 940px;
+  }
 
   .banner figcaption {
     width: 300px;
@@ -803,11 +812,11 @@ body {
   h3 {
     font-size: 0.9em;
     width: 100%;
-     color: #4f4f4d;
+    color: #4f4f4d;
     text-align: center;
     float: left;
     display: inline;
     margin-bottom: 10%;
     font-style: normal;
   }
-  }
+}

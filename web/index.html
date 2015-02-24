@@ -18,14 +18,14 @@
 		<div class="container">
 			<menu>
 				<ul class="menu">
-					<li>HOME</li>
-					<a href=".products"><li>PRODUTOS</li></a>
-					<a href=".title"><li>CONTATO</li></a>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#products">PRODUTOS</a></li>
+					<li><a href="#contact">CONTATO</a></li>
 				</ul>
 			</menu>
 			<address class="head-contact">
-				<p>Tel: (11) 9999 9999</p>
-				<p>univipax@ig.com.br</p>
+				<p><a href="tel:1199999999">Tel: (11) 9999 9999</a></p>
+				<p><a href="mailto:univipax@ig.com.br">univipax@ig.com.br</a></p>
 			</address>
 		</div>
 	</nav>
@@ -46,7 +46,7 @@
 	<!-- products -->
 	<div class="box-products">
 		<div class="container">
-			<h1 class="title">PRODUTOS</h1>
+			<h1 class="title" id="products">PRODUTOS</h1>
 			<article>Nossos cordões de crachás, são da mais alta qualidade, fitas ecológicas onde possuímos um padrão de qualidade internacional, as gravações são em Silk podem ser escolhidas 1, 2, 3 ou mais cores, você escolhe se deseja Silk comum ou Emborrachado em Alto Relevo. Com padrão de qualidade garantido, alta durabilidade, macies e maior detalhamento.</article>
 			<ul class="products">
 				<li>
@@ -160,13 +160,13 @@ OBS: Fabricamos cordões com espessura e medidas especiais conforme a necessidad
 				<h1 class="title">SOBRE</h1>
 				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
 			</div>
-			<div class="contact">
+			<div class="contact" id="contact">
 				<h1 class="title">CONTATO</h1>
 				<form action="" method="post" class="form">
-					<input type="text" placeholder="Nome:" name="name">
-					<input type="tel" placeholder="Tel:" name="tel">
-					<input type="email" placeholder="Email:" name="email">
-					<textarea name="message" cols="30" rows="10" placeholder="Mensagem:"></textarea>
+					<input type="text" placeholder="Nome:" name="name" required><br>
+					<input type="tel" placeholder="Tel:" name="tel"><br>
+					<input type="email" placeholder="Email:" name="email"  required><br>
+					<textarea name="message" cols="30" rows="10" placeholder="Mensagem:"  required></textarea><br>
 					<button type="submit">Enviar</button>
 				</form>
 			</div>
@@ -175,6 +175,6 @@ OBS: Fabricamos cordões com espessura e medidas especiais conforme a necessidad
 	<!-- end footer -->
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="js/global.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
